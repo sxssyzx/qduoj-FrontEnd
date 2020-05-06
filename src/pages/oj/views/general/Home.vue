@@ -1,4 +1,11 @@
 <template>
+<div>
+  <Row type="flex" justify="space-around">
+    <Col :span="22">
+    <div :style="'background: url(' + cdnUrl + '/static/pic/home.jpg) no-repeat center; background-size: 100%; min-height: 55vh; max-width: 80rem!important; margin: auto;'" />
+    </Col>
+  </Row>
+  
   <Row type="flex" justify="space-around">
     <Col :span="22">
     <panel shadow v-if="contests.length" class="contest">
@@ -29,6 +36,7 @@
     <Announcements class="announcement"></Announcements>
     </Col>
   </Row>
+</div>
 </template>
 
 <script>
@@ -36,6 +44,7 @@
   import api from '@oj/api'
   import time from '@/utils/time'
   import { CONTEST_STATUS } from '@/utils/constants'
+  import {cdnUrl} from '@/plugins/live2d_autoload.js'
 
   export default {
     name: 'home',
@@ -45,7 +54,8 @@
     data () {
       return {
         contests: [],
-        index: 0
+        index: 0,
+        cdnUrl
       }
     },
     mounted () {

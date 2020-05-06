@@ -1,3 +1,24 @@
+# QDU OJ Front End
+
+## Notes
+
+- 为了自动适应后端CDN域名，请在代码中使用`__STATIC_CDN_HOST__`
+
+- 增加contest rejudge
+
+    在`views/submission/submissionList.vue`的第312行，去除限制。（这里需要和后端做匹配）
+
+- 在nav bar添加icon
+
+- 修改help信息
+
+- 添加Live2d和音乐组件
+
+- 移除Google Analytics
+
+
+---
+
 # OnlineJudge Front End
 [![vue](https://img.shields.io/badge/vue-2.5.13-blue.svg?style=flat-square)](https://github.com/vuejs/vue)
 [![vuex](https://img.shields.io/badge/vuex-3.0.1-blue.svg?style=flat-square)](https://vuex.vuejs.org/)

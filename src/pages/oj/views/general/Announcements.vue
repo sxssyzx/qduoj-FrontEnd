@@ -19,7 +19,7 @@
               <div class="title"><a class="entry" @click="goAnnouncement(announcement)">
                 {{announcement.title}}</a></div>
               <div class="date">{{announcement.create_time | localtime }}</div>
-              <div class="creator"> {{$t('m.By')}} {{announcement.created_by.username}}</div>
+              <div class="creator"> {{announcement.created_by.username}}</div>
             </div>
           </li>
         </ul>

@@ -7,8 +7,7 @@
       </transition>
       <div class="footer">
         <p v-html="website.website_footer"></p>
-        <p>Powered by <a href="https://github.com/QingdaoU/OnlineJudge">OnlineJudge</a>
-          <span v-if="version">&nbsp; Version: {{ version }}</span>
+        <p>Powered by <a href="https://github.com/sxssyzx" target="_blank">SXSSYZX OI Team</a>
         </p>
       </div>
     </div>
@@ -19,7 +18,7 @@
 <script>
   import { mapActions, mapState } from 'vuex'
   import NavBar from '@oj/components/NavBar.vue'
-
+  import loadlive2Init from '@/plugins/live2d_autoload.js'
   export default {
     name: 'app',
     components: {
@@ -38,6 +37,7 @@
     },
     mounted () {
       this.getWebsiteConfig()
+      loadlive2Init()
     },
     methods: {
       ...mapActions(['getWebsiteConfig', 'changeDomTitle'])

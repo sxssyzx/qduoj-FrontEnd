@@ -42,7 +42,7 @@ export default function loadlive2Init () {
       // live2d
       loadExternalResource(aplayer_path + 'aplayer.css', 'css'),
       loadExternalResource(aplayer_path + 'aplayer.js', 'js'),
-      fetch('/static/live2d/music.json').then(response => response.json()).then(data => {
+      fetch(cdn_path + '/static/live2d/music.json').then(response => response.json()).then(data => {
         for (var i = 0; i < data.length; ++i) {
           data[i].url = staticUrl + data[i].url
           data[i].cover = staticUrl + data[i].cover

@@ -59,6 +59,13 @@
   </panel>
 
   <panel :padding="15" class="container">
+    <div slot="title">音乐 & 看板娘</div>
+    <div class="content">
+      <span>仅用于纪念2020年秋天机房四个人的故事。(ZHL, ZYX, GBW, ZLX)</span>
+    </div>
+  </panel>
+
+  <panel :padding="15" class="container">
     <div slot="title">更多</div>
     <div class="content">
       <span>如有更多问题，请使用邮件联系站点管理员Haolin Zhang, </span>

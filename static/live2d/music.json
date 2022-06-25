@@ -6,6 +6,12 @@
         "cover": "/static/live2d/music/奢香夫人.webp"
     },
     {
+        "name": "Realize",
+        "artist": "鈴木このみ",
+        "url": "/static/live2d/music/Realize-鈴木このみ.m4a",
+        "cover": "/static/live2d/music/Realize-鈴木このみ.png"
+    },
+    {
         "name": "Tokyovania",
         "artist": "SharaX /SANS /papyrus",
         "url": "/static/live2d/music/Tokyovania.m4a",
@@ -14,7 +20,7 @@
     {
         "name": "我的悲伤是水做的",
         "artist": "泠鸢yousa",
-        "url": "/static/music/live2d/泠鸢yousa-我的悲伤是水做的.mp3",
-        "cover": "/static/music/live2d/我的悲伤是水做的.webp"
+        "url": "/static/live2d/music/泠鸢yousa-我的悲伤是水做的.mp3",
+        "cover": "/static/live2d/music/我的悲伤是水做的.webp"
     }
 ]

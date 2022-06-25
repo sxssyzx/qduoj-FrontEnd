@@ -2,7 +2,7 @@
 <div>
   <Row type="flex" justify="space-around">
     <Col :span="22">
-    <div :style="'background: url(' + cdnUrl + '/static/pic/home.jpg) no-repeat center; background-size: 100%; min-height: 55vh; max-width: 80rem!important; margin: auto;'" />
+    <div :style="'background: url(' + cdnUrl + '/static/pic/home.jpg) no-repeat center; background-size: 100%; min-height: 60vh; max-width: 70rem!important; margin: auto;'" />
     </Col>
   </Row>
   

@@ -1,4 +1,4 @@
 @echo off
-set TARGET=http://10.0.0.38/
+set TARGET=http://oj.hlz.ink/
 set PORT=80
 npm run dev
